@@ -53,8 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\Thirdpersoncharactercontroller.cs" />
-     <Compile Include="Assets\scripts\Thridpersoncameracontroller.cs" />
+     <Compile Include="Assets\scripts\player\Thridpersoncameracontroller.cs" />
+     <Compile Include="Assets\scripts\player\playerwalk.cs" />
+     <Compile Include="Assets\scripts\player\sprint.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Wolfblood/Desktop/ZoeGameDev/games/Cyber-ballet-/Cyber ballet/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
