@@ -6,12 +6,22 @@ public class playerwalk : MonoBehaviour
 {
     public float speed;
 
-
+   
     // Update is called once per frame
     void Update()
     {
+        Vector3 movement = Vector3.zero;
         playermovment();
-  
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = 15;
+        }
+        else
+        {
+            speed = 5;
+        }
+        movement += Vector3.forward * speed * Time.deltaTime;
+
     }
 
 
